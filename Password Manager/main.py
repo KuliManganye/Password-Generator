@@ -82,7 +82,7 @@ def find_password():
         with open("data.json") as data_file:
             data = json.load(data_file)
     except FileNotFoundError:
-        messagebox.showinfo(title="Error", message="Bo Data File Found")
+        messagebox.showinfo(title="Error", message="No Data File Found")
     else:
         if website in data:
             email = data[website]["email"]
