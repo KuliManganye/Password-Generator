@@ -122,7 +122,7 @@ email_label.grid(column=0, row=2)
 # Create a email/username entry
 email_entry = Entry(width=35)
 email_entry.grid(column=1, row=2, columnspan=2)
-email_entry.insert(0, "kulimanganye@gmail.com")
+email_entry.insert(0, "email")
 
 
 #Create a password label
